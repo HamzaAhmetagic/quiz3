@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.quiz-box {
+	width: 500px;
+	height: 500px;
+	border:1px solid #000;
+	margin: 50px auto;
+	position: relative;
+}
+.pitanje-box {
+	height: 50px;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+	line-height:3;
+}
+.options {
+	width: 200px;
+	height: 150px;
+	border:1px solid #ddd;
+	float: left;
+	margin: 20px;
+	text-align: center;
+	line-height: 8;
+	user-select: none;
+}
+.score {
+	height: 50px;
+	width: 100%;
+	border-top: 1px solid #ddd;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	line-height: 3;
+	/*background-color: #000;*/
+}
